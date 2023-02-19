@@ -21,11 +21,11 @@ extern void pacify_load_options(char *filepath);
 extern void pacify_save_options(void);
 
 /* --- Setting management --- */
-extern int    pacify_option_int_get(char *name, int default_value);
+extern int pacify_option_int_get(char *name, int default_value);
 extern double pacify_option_double_get(char *name, double default_value);
-extern char   *pacify_option_text_get(char *name, char *default_value);
-extern void   pacify_option_int_set(char *name, int value);
-extern void   pacify_option_double_set(char *name, double value);
-extern void   pacify_option_text_set(char *name, char *value);
+extern char *pacify_option_text_get(char *name, char *default_value);
+extern void pacify_option_int_set(char *name, int value);
+extern void pacify_option_double_set(char *name, double value);
+extern void pacify_option_text_set(char *name, char *value);
 
 #endif /* PACIFY_H */
